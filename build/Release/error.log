@@ -1,0 +1,9 @@
+file:/C:/Documents and Settings/Administrator/Local Settings/Temp/e4jC4.tmp_dir14186/jruby-complete-1.5.1.jar!/builtin/javasupport/java.rb:51:in `method_missing': cannot load Java class org.jvnet.substance.skin.SubstanceModerateLookAndFeel (NameError)
+	from view.rb:5:in `require'
+	from file:/C:/Documents and Settings/Administrator/Local Settings/Temp/e4jC4.tmp_dir14186/jruby-complete-1.5.1.jar!/META-INF/jruby.home/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from controller.rb:139
+	...internal jruby stack elided...
+	from #<Class:01x9a1411>.method_missing(view.rb:5)
+	from Kernel.require(file:/C:/Documents and Settings/Administrator/Local Settings/Temp/e4jC4.tmp_dir14186/jruby-complete-1.5.1.jar!/META-INF/jruby.home/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31)
+	from Kernel.require(controller.rb:139)
+	from (unknown).(unknown)(:1)

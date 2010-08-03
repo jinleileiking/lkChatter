@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.2" transformSequenceNumber="1">
+  <directoryPresets config="D:/Leiking/Study/_Ruby/lkChatter/build" />
+  <application name="lkchatter" distributionSourceDir="D:/Leiking/Study/_Ruby/lkChatter/build/Release">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="lkchatter" type="2" iconSet="false" iconFile="" executableDir="." redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" amd64="false">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="" java6SplashScreen="false">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="controller" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" minVersion="1.3" maxVersion="" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+      <directory location="./jre1.6.0_03" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/Leiking/Study/_Ruby/lkChatter/build/log4r.jar" failOnError="false" />
+      <archive location="D:/Leiking/Study/_Ruby/lkChatter/build/jruby-complete-1.5.1.jar" failOnError="false" />
+      <archive location="../build.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
